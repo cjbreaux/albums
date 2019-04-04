@@ -19,6 +19,7 @@ export class MarketplaceComponent implements OnInit {
   }
 
   albums: FirebaseListObservable<any[]>;
+  currentRoute: string = this.router.url;
 
 
  gotToDetailPage(clickedAlbum) {
